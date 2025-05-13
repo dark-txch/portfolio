@@ -1,0 +1,38 @@
+import { MdKeyboardDoubleArrowDown } from "react-icons/md";
+
+function App() {
+	return (
+		<>
+			<div className="portfolioWrapper bg-">
+				{/*  header door slide in */}
+				<header className="heroHeader">
+					<div className="headerDoorSlideLeft">
+						<h1>Ebenezer</h1>
+						<div className="leftLock"></div>
+						<h4>Front End</h4>
+
+						<span>
+							<p>
+								<MdKeyboardDoubleArrowDown />
+								scroll
+							</p>
+						</span>
+					</div>
+					<div className="headerDoorSlideRight">
+						<h1>Tiewei</h1>
+						<div className="rightLock"></div>
+						<h4>Developer</h4>
+					</div>
+				</header>
+
+				{/* main body */}
+				<main>
+					<header></header>
+				</main>
+				<footer></footer>
+			</div>
+		</>
+	);
+}
+
+export default App;

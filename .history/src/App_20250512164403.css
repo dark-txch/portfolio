@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+:root {
+	font-size: 16px;
+	color-scheme: light dark;
+	color: rgba(0, 0, 0, 0.87);
+	background-color: #ffffff;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	width: 100vw;
+	height: 100%;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	border: none;
+	outline: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+input {
+	background-color: white;
+	color: black;
+}
