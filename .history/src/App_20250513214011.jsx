@@ -1,0 +1,60 @@
+import { MdKeyboardDoubleArrowDown } from "react-icons/md";
+import BackgroundVideo from "./components/BackgroundVideo";
+
+function App() {
+	return (
+		<>
+			{/* portfolio project wrapper */}
+			<div className="w-screen h-full ">
+				{/* hero header  */}
+				<header className="w-screen h-[100vh] bg-gradient-to-b from-[#5409DA] to-[#4E71FF]">
+					{/* Ebenezer container slidein down for mobile and slidein left for desktop */}
+					<div className="relative w-screen h-[50dvh] flex flex-col justify-end items-center lg:h-[100vh] border-[0.2px] border-[#4E71FF]">
+						<BackgroundVideo
+							src="/video/gym-s.mp4"
+							className="absolute top-0 left-0 w-screen h-[100%] object-cover object-[0_20%]"
+						/>
+						<div className="flex justify-between items-center w-full px-[2rem]">
+							<h1 className="relative text-[2rem] lg:text-[5rem] text-">Ebenezer</h1>
+							<h4 className="relative text-[1rem]">Front End</h4>
+						</div>
+						{/* this container is for large screens */}
+						<span className="hidden lg:inline">
+							<p>
+								<MdKeyboardDoubleArrowDown />
+								scroll
+							</p>
+						</span>
+					</div>
+
+					{/* Tiewei container slidein up for mobile and slidein right for desktop */}
+					<div className="relative w-screen h-[50dvh] flex flex-col justify-start items-center">
+						<BackgroundVideo
+							src="/video/tech-s.mp4"
+							className="absolute bottom-0 left-0 w-screen h-[100%] object-cover object-[0_90%]"
+						/>
+						{/* hidden container for large screens*/}
+						<div className="hidden">
+							<h1 className="relative">Tiewei</h1>
+							<div className="rightLock"></div>
+							<h4 className="relative">Developer</h4>
+						</div>
+						{/* container for small screens*/}
+						<div className="flex justify-between items-center w-full px-[2rem]">
+							<h1 className="relative text-[2rem]">Tiewei</h1>
+							<h4 className="relative text-[1rem]">Developer</h4>
+						</div>
+					</div>
+				</header>
+
+				{/* main body */}
+				<main>
+					<header></header>
+				</main>
+				<footer></footer>
+			</div>
+		</>
+	);
+}
+
+export default App;
