@@ -1,0 +1,18 @@
+export default function () {
+	return (
+		<div>
+			<main className="-translate-y-full">
+				<header className="w-screen h-screen bg-[#0C0950]">
+					<nav className="origin-top bg-blue-500 text-white w-screen h-[7rem] shadow-lg flex items-center justify-center">
+						<ul className="flex gap-8 text-lg">
+							<li>Home</li>
+							<li>About</li>
+							<li>Projects</li>
+							<li>Contact</li>
+						</ul>
+					</nav>
+				</header>
+			</main>
+		</div>
+	);
+}
