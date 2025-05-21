@@ -1,10 +1,9 @@
 import Ebenezer from "../assets/Ebenezer.png";
-import { FaHandPointRight, FaHandPointDown } from "react-icons/fa";
 
 export default function About() {
 	return (
 		<div className="w-screen h-auto bg-[#09063a] lg:px-[3rem]">
-			<div className="flex flex-col justify-center lg:flex-row">
+			<div className="flex flex-col justify-center pb-[10rem] lg:flex-row">
 				<div className="border-[0.2rem] border-cyan-100 lg:w-[70%] order-1">
 					<h1 className="font-unna font-bold text-cyan-200 px-[1rem] leading-[3rem] mt-[5rem] text-[2.5rem] mb-[1.5rem] lg:text-[3rem]">
 						Hello, I'm Ebenezer Tiewei &#x1F44B;
@@ -48,13 +47,7 @@ export default function About() {
 				</div>
 			</div>
 			<div className="font-unna font-bold text-cyan-200 px-[1rem] leading-[3rem] mt-[5rem] text-[2.5rem] mb-[1.5rem] lg:text-[3rem]">
-				<button className="border-[0.2rem] border-cyan-100 flex gap-2 items-center text-[1.8rem] cursor-pointer relative">
-					<FaHandPointRight size={25} />
-					skills
-				</button>
-				<div>
-					<ul></ul>
-				</div>
+				h
 			</div>
 		</div>
 	);

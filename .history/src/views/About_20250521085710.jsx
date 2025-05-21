@@ -52,9 +52,7 @@ export default function About() {
 					<FaHandPointRight size={25} />
 					skills
 				</button>
-				<div>
-					<ul></ul>
-				</div>
+				
 			</div>
 		</div>
 	);

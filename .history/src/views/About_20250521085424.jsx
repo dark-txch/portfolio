@@ -48,13 +48,10 @@ export default function About() {
 				</div>
 			</div>
 			<div className="font-unna font-bold text-cyan-200 px-[1rem] leading-[3rem] mt-[5rem] text-[2.5rem] mb-[1.5rem] lg:text-[3rem]">
-				<button className="border-[0.2rem] border-cyan-100 flex gap-2 items-center text-[1.8rem] cursor-pointer relative">
-					<FaHandPointRight size={25} />
+				<button className="border-[0.2rem] border-cyan-100 flex gap-2 text-[1.8rem]">
+					<FaHandPointRight size={30} />
 					skills
 				</button>
-				<div>
-					<ul></ul>
-				</div>
 			</div>
 		</div>
 	);
