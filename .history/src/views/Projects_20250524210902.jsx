@@ -18,7 +18,7 @@ export default function Projects() {
 
 	return (
 		<div className=" w-screen h-auto flex flex-col px-[1rem] pt-[5rem] pb-[10rem]">
-			<div className="lg:w-[50%]">
+			<div className="border lg:w-[50%]">
 				<div className="bg-[#1c1860] w-full flex flex-col items-center border-[0.5rem] border-[#6DE1D2] rounded-[3rem]">
 					<div className="bg-[#000000] w-full h-[18rem] flex justify-between p-[1rem] rounded-tl-[3rem] rounded-tr-[3rem] lg:space-x-5 lg:h-[14rem]">
 						<img

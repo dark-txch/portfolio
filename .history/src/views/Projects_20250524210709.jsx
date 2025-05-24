@@ -18,9 +18,9 @@ export default function Projects() {
 
 	return (
 		<div className=" w-screen h-auto flex flex-col px-[1rem] pt-[5rem] pb-[10rem]">
-			<div className="lg:w-[50%]">
+			<div className="border lg:w-[50%]">
 				<div className="bg-[#1c1860] w-full flex flex-col items-center border-[0.5rem] border-[#6DE1D2] rounded-[3rem]">
-					<div className="bg-[#000000] w-full h-[18rem] flex justify-between p-[1rem] rounded-tl-[3rem] rounded-tr-[3rem] lg:space-x-5 lg:h-[14rem]">
+					<div className="bg-[#000000] w-full h-[18rem] flex justify-between p-[1rem] lg:space-x-5 lg:h-[14rem]">
 						<img
 							src={IphonePortfolio}
 							alt="IphonePortfolio"
@@ -57,7 +57,7 @@ export default function Projects() {
 										{portfolioSummary.map((category) => (
 											<div
 												key={category.summary}
-												className="pl-[2.8rem] pr-[1rem] border-b-[0.1px] rounded-bl-[3rem] rounded-br-[3rem] border-cyan-500 pt-2 pb-2"
+												className="pl-[2.8rem] pr-[1rem] border-b-[0.1px] rounded-bl-[3rem] border-cyan-500 pt-2 pb-2"
 											>
 												<h4 className="text-[1.2rem] font-bold mb-1">
 													Summary:

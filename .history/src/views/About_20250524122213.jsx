@@ -6,6 +6,8 @@ import { motion, AnimatePresence } from "framer-motion";
 
 export default function About() {
 	const [showSkills, setShowSkills] = useState(false);
+
+
 	const skillCategories = [
 		{ title: "Languages", skills: ["HTML", "CSS", "JAVASCRIPT"] },
 		{ title: "Libraries", skills: ["REACT"] },
@@ -59,20 +61,21 @@ export default function About() {
 					{showSkills ? <FaHandPointDown /> : <FaHandPointRight />}
 					Skills
 				</button>
+
 				<AnimatePresence>
 					{showSkills && (
 						<motion.div
 							initial={{ opacity: 0, y: -10 }}
 							animate={{ opacity: 1, y: 0, transition: { duration: 1 } }}
-							exit={{ opacity: 0, y: -10, transition: { duration: 0.5 } }}
-							className="mt-4 space-y-4"
+							exit={{ opacity: 0, y: -10, transition: { duration: 0.3 } }}
+							className="mt-6 space-y-5"
 						>
 							{skillCategories.map((category) => (
 								<div
 									key={category.title}
-									className="px-[2rem] border-b-[0.1px] border-cyan-500 pt-2 pb-2"
+									className="px-[2rem] border-b-[0.1px] border-cyan-500 pt-2 pb-5"
 								>
-									<h4 className="text-[1.2rem] font-bold mb-2">
+									<h4 className="text-[1.2rem] font-bold mb-3">
 										{category.title}
 									</h4>
 									<ul className="text-[1rem] font-thin flex gap-3 items-center">
