@@ -7,7 +7,7 @@ export default function Projects() {
 	return (
 		<div className=" w-screen h-auto flex flex-col px-[1rem] pt-[5rem] pb-[10rem]  border">
 			<div className="bg-[#1c1860] w-full mx-auto p-[1rem] flex flex-col items-center border">
-				<div className="bg-[#1DCD9F] w-full h-[18rem] border flex justify-center space-x-2 p-[1rem] mb-[1rem] lg:h-[25rem] lg:space-x-5">
+				<div className="bg-[#] w-full h-[18rem] border flex justify-center space-x-2 p-[1rem] mb-[1rem] lg:h-[25rem] lg:space-x-5">
 					<img
 						src={IphonePortfolio}
 						alt="IphonePortfolio"
