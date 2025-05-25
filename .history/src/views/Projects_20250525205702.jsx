@@ -19,8 +19,9 @@ const projects = [
 			{ src: iPhoneBizpadi, alt: "iPhone Bizpadi" },
 		],
 		summary:
+			// "My personal portfolio website built to showcase my frontend projects, skills, and contact information. It is fully responsive and built with modern tools.",
 			"A book keeping app that enables small business owners track their sales and profit",
-		tools: ["Vite", "React", "CSS", "Git"],
+		tools: ["Vite", "React", "CSS", "GitHub Pages"],
 		view: "https://bizpadi.netlify.app/",
 	},
 	// ResQ Project-----------------------------------
@@ -32,8 +33,8 @@ const projects = [
 			{ src: iphoneResq, alt: "iPhone ResQ" },
 		],
 		summary:
-			"An emergency response app that sends out an emergency alert to your love ones and the right authorities, when you feel unsafe.",
-		tools: ["Vite", "React", "CSS", "Git"],
+			"An emergency response app that sends out an emergency alert to your love ones and the right authority.",
+		tools: ["Vite", "React", "CSS", "GitHub Pages"],
 		view: "https://resq-co.netlify.app/",
 	},
 ];

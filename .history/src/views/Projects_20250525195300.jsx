@@ -8,20 +8,20 @@ import iPhoneBizpadi from "../assets/Projects/bizpadi/iPhoneBizpadi.app.png";
 import MacbookResq from "../assets/Projects/resq/MacbookResq.png";
 import ipadResq from "../assets/Projects/resq/iPadResq.png";
 import iphoneResq from "../assets/Projects/resq/iPhoneResq.png";
+import { title } from "framer-motion/client";
 
 const projects = [
 	// Bizpadi Project-----------------------------------
 	{
-		title: "Bizpadi",
+		
 		images: [
 			{ src: macbookBizpadi, alt: "Macbook Bizpadi" },
 			{ src: ipadBizpadi, alt: "iPad Bizpadi" },
 			{ src: iPhoneBizpadi, alt: "iPhone Bizpadi" },
 		],
 		summary:
-			"A book keeping app that enables small business owners track their sales and profit",
-		tools: ["Vite", "React", "CSS", "Git"],
-		view: "https://bizpadi.netlify.app/",
+			"My personal portfolio website built to showcase my frontend projects, skills, and contact information. It is fully responsive and built with modern tools.",
+		tools: ["Vite", "React", "CSS", "GitHub Pages"],
 	},
 	// ResQ Project-----------------------------------
 	{
@@ -32,9 +32,8 @@ const projects = [
 			{ src: iphoneResq, alt: "iPhone ResQ" },
 		],
 		summary:
-			"An emergency response app that sends out an emergency alert to your love ones and the right authorities, when you feel unsafe.",
-		tools: ["Vite", "React", "CSS", "Git"],
-		view: "https://resq-co.netlify.app/",
+			"A responsive website that provides emergency response services. It includes features like service details, contact information, and a user-friendly interface.",
+		tools: ["Vite", "React", "CSS", "GitHub Pages"],
 	},
 ];
 
@@ -48,7 +47,6 @@ export default function Projects() {
 					images={project.images}
 					summary={project.summary}
 					tools={project.tools}
-					view={project.view}
 				/>
 			))}
 		</div>

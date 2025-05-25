@@ -44,7 +44,7 @@ const ProjectStand = ({ title, images, summary, tools, view }) => {
 									<h4 className="text-[1.2rem] font-bold mb-1">Summary:</h4>
 									<p className="text-[1rem] font-thin mb-3">{summary}</p>
 									<h4 className="text-[1.2rem] font-bold mb-1">Tools:</h4>
-									<ul className="flex flex-wrap gap-3 ">
+									<ul className="flex flex-wrap gap-2 ">
 										{tools.map((tool) => (
 											<li
 												key={tool}

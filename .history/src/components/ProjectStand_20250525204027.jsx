@@ -4,7 +4,7 @@ import { FaHandPointRight, FaHandPointDown } from "react-icons/fa";
 import { GoDotFill } from "react-icons/go";
 import { motion, AnimatePresence } from "framer-motion";
 
-const ProjectStand = ({ title, images, summary, tools, view }) => {
+const ProjectStand = ({ title, images, summary, tools }) => {
 	const [isOpen, setIsOpen] = useState(false);
 
 	return (
@@ -44,26 +44,14 @@ const ProjectStand = ({ title, images, summary, tools, view }) => {
 									<h4 className="text-[1.2rem] font-bold mb-1">Summary:</h4>
 									<p className="text-[1rem] font-thin mb-3">{summary}</p>
 									<h4 className="text-[1.2rem] font-bold mb-1">Tools:</h4>
-									<ul className="flex flex-wrap gap-3 ">
+									<ul className="flex flex-wrap gap-4 ">
 										{tools.map((tool) => (
-											<li
-												key={tool}
-												className="flex items-center gap-2 mb-[1rem]"
-											>
+											<li key={tool} className="flex items-center gap-2">
 												<GoDotFill className="text-cyan-400" size={10} />
 												<span>{tool}</span>
 											</li>
 										))}
 									</ul>
-									<a
-										href={view}
-										target="_blank"
-										rel="noopener noreferrer"
-										className="text-[1.2rem] font-bold mb-1 flex items-center gap-3"
-									>
-										<FaHandPointRight />
-										View project
-									</a>
 								</div>
 							</motion.div>
 						)}
