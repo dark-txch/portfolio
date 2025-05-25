@@ -1,5 +1,5 @@
 // pages/Projects.jsx
-import ProjectStand from "../components/ProjectStand";
+import ProjectStand from
 import macbookBizpadi from "../assets/Projects/bizpadi/macbookBizpadi.app.png";
 import ipadBizpadi from "../assets/Projects/bizpadi/iPadBizpadi.app.png";
 import iPhoneBizpadi from "../assets/Projects/bizpadi/iPhoneBizpadi.app.png";
@@ -22,7 +22,7 @@ export default function Projects() {
 	return (
 		<div className="w-screen h-auto flex flex-col px-[1rem] pt-[5rem] pb-[10rem] gap-[3rem]">
 			{projects.map((project, idx) => (
-				<ProjectStand
+				<ProjectCard
 					key={idx}
 					images={project.images}
 					summary={project.summary}

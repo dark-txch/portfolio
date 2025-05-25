@@ -22,7 +22,7 @@ export default function Projects() {
 	return (
 		<div className="w-screen h-auto flex flex-col px-[1rem] pt-[5rem] pb-[10rem] gap-[3rem]">
 			{projects.map((project, idx) => (
-				<ProjectStand
+				<ProjectStan
 					key={idx}
 					images={project.images}
 					summary={project.summary}
