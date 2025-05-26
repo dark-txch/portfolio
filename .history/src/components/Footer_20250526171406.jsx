@@ -6,9 +6,7 @@ const Footer = () => {
 		<footer className="w-screen bg-[#1c1860] text-[#EAE4D5] py-[3rem] px-[1rem] flex flex-col lg:px-[3rem]">
 			<div className="flex flex-col items-end">
 				<h6>Would you like to support my content?</h6>
-				<p className="p-[1rem] text-[1.3rem] rounded-[2rem] mt-[0.7rem] bg-[#6b6b6b]">
-					Hire me or recommend me
-				</p>
+				<p className="border p-[1rem] text-[1.3rem] rounded-[2rem] mt-[0.7rem ]">Hire me or recommend me</p>
 			</div>
 
 			{/*Container for nav link icons and copyright  */}

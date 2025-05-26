@@ -66,12 +66,12 @@ export default function About() {
 							from experienced professionals.
 						</p>
 					</div>
-					<div className="lg:w-[40rem] lg:h-[40rem] mt-[5rem] px-[1rem] lg:mt-0 lg:pt-[5rem] lg:order-2 md:flex md:justify-center ">
+					<div className="lg:w-[auto] lg:h-[60rem] mt-[5rem] px-[1rem] lg:mt-0 lg:pt-[5rem] lg:order-2 md:flex md:justify-center ">
 						<img
 							src={EbenezerPortfolioOptimized}
 							loading="lazy"
 							alt="Ebenezer seated at his work desk in a modern office"
-							className="rounded-[2rem] w-full h-full object-cover"
+							className="rounded-[2rem]"
 						/>
 					</div>
 				</div>

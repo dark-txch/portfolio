@@ -71,7 +71,7 @@ export default function About() {
 							src={EbenezerPortfolioOptimized}
 							loading="lazy"
 							alt="Ebenezer seated at his work desk in a modern office"
-							className="rounded-[2rem] w-full h-full object-cover"
+							className="rounded-[2rem]"
 						/>
 					</div>
 				</div>

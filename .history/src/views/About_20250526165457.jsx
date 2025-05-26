@@ -36,7 +36,7 @@ export default function About() {
 				className="w-screen h-auto bg-[#09063a] text-[1.4rem] lg:text-[1.6rem] lg:px-[3rem]"
 			>
 				<div className="flex flex-col justify-center lg:flex-row">
-					<div className="lg:w-full order-1">
+					<div className="lg:w-[70%] order-1">
 						<h1 className="font-unna font-bold text-cyan-200 px-[1rem] leading-[3rem] mt-[5rem] text-[2.5rem] mb-[1.5rem] lg:text-[3rem]">
 							Hello, I'm Ebenezer Tiewei &#x1F44B;
 						</h1>
@@ -66,12 +66,12 @@ export default function About() {
 							from experienced professionals.
 						</p>
 					</div>
-					<div className="lg:w-[40rem] lg:h-[40rem] mt-[5rem] px-[1rem] lg:mt-0 lg:pt-[5rem] lg:order-2 md:flex md:justify-center ">
+					<div className="lg:w-[30%] mt-[5rem] px-[1rem] lg:mt-0 lg:pt-[5rem] lg:order-2 md:flex md: ">
 						<img
 							src={EbenezerPortfolioOptimized}
 							loading="lazy"
 							alt="Ebenezer seated at his work desk in a modern office"
-							className="rounded-[2rem] w-full h-full object-cover"
+							className="rounded-[2rem] w-full max-w-md h-auto shadow-md object-cover"
 						/>
 					</div>
 				</div>
