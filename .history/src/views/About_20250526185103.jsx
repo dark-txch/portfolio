@@ -80,11 +80,7 @@ export default function About() {
 						onClick={() => setShowSkills(!showSkills)}
 						className="uppercase flex gap-3 items-center text-cyan-200 text-[1rem]"
 					>
-						{showSkills ? (
-							<FaHandPointRight />
-						) : (
-							<FaHandPointDown className="transform scale-x-[-1]" />
-						)}
+						{showSkills ? <FaHandPointRight /> : <FaHandPointDown />}
 						Skills
 					</button>
 					<AnimatePresence>
