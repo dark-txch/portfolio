@@ -44,10 +44,7 @@ const Hero = ({ slideOut, onEnter }) => {
 							className="relative top-[1.5rem] text-[#60B5FF] text-[1.1rem] font-bold bg-[#CB0404] mx-[1rem] rounded-t-[5rem] border-[2px] border-[#60B5FF] cursor-pointer w-[3.1rem] h-[3.2rem] md:w-[4.5rem] md:h-[4rem] lg:w-[5rem] lg:h-[4.5rem] lg:top-auto lg:mx-0 lg:rounded-tl-[3rem] lg:rounded-bl-[3rem] lg:rounded-t-none lg:my-[1rem] lg:left-[2.7rem] lg:uppercase lg:order-1 motion-preset-pulse motion-duration-2000"
 						>
 							{/* <span className="relative bottom-[0.5rem] text-[1rem] lg:left-[-1.2rem] lg:bottom-0">Tap</span> */}
-							<FaHome
-								size={30}
-								className="relative  left-[0.5rem] top-[-0.2rem] md:left-[0.55rem] md:top-[0.1rem] md:size-[3rem] lg:left-[0.7rem] lg:top-0"
-							/>
+							<FaHome size={40} className="relative  left-[0.2rem]" />
 						</button>
 
 						<h4 className="w-[6rem] text-[1rem] text-[#60B5FF] font-bold text-right uppercase pb-[0.5rem] md:w-[10rem] md:text-[1.5rem] lg:w-fit lg:pr-[1rem] lg:text-[2.5rem] lg:order-4">
@@ -83,10 +80,7 @@ const Hero = ({ slideOut, onEnter }) => {
 							{/* <span className="relative top-[0.4rem] text-[1rem] lg:top-0 lg:right-[-1.2rem]">
 								me
 							</span> */}
-							<FaHome
-								size={30}
-								className="relative  left-[0.5rem] bottom-[0.2rem] md:left-[0.55rem] md:bottom-[0.65rem] md:size-[3rem] lg:left-[1rem] lg:bottom-0"
-							/>
+							<FaHome size={40} className="relative  left-[0.2rem] md:left-[0.85rem]" />
 						</button>
 
 						<h4 className="w-[6rem] text-[1rem] text-[#60B5FF] font-bold text-right uppercase pt-[0.5rem] md:w-[10rem] md:text-[1.5rem] lg:text-left lg:pb-[0.5rem] lg:pt-0 lg:w-fit lg:pl-[1rem] lg:text-[2.5rem] lg:order-4">

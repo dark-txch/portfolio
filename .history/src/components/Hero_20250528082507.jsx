@@ -46,7 +46,7 @@ const Hero = ({ slideOut, onEnter }) => {
 							{/* <span className="relative bottom-[0.5rem] text-[1rem] lg:left-[-1.2rem] lg:bottom-0">Tap</span> */}
 							<FaHome
 								size={30}
-								className="relative  left-[0.5rem] top-[-0.2rem] md:left-[0.55rem] md:top-[0.1rem] md:size-[3rem] lg:left-[0.7rem] lg:top-0"
+								className="relative  left-[0.5rem] top-[0.2rem] md:left-[0.55rem] md:top-[0] md:size-[3rem]"
 							/>
 						</button>
 
@@ -85,7 +85,7 @@ const Hero = ({ slideOut, onEnter }) => {
 							</span> */}
 							<FaHome
 								size={30}
-								className="relative  left-[0.5rem] bottom-[0.2rem] md:left-[0.55rem] md:bottom-[0.65rem] md:size-[3rem] lg:left-[1rem] lg:bottom-0"
+								className="relative  left-[0.5rem] bottom-[0.2rem] md:left-[0.55rem] md:bottom-[0.65rem] md:size-[3rem]"
 							/>
 						</button>
 
