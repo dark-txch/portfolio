@@ -1,19 +1,15 @@
 import { RiTwitterXLine } from "react-icons/ri";
-import { FaLinkedin, FaGithub, FaWhatsappSquare } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Footer = () => {
 	return (
 		<footer className="w-screen bg-[#1c1860] text-[#EAE4D5] py-[3rem] px-[1rem] flex flex-col lg:px-[3rem]">
 			<div className="flex flex-col items-end">
 				<h6>Would you like to support my content?</h6>
-				<p className="flex flex-col items-end text-[1.1rem] rounded-[2rem]">
+				<p className="p-[1rem] text-[1.3rem] rounded-[2rem] mt-[0.7rem] bg-[#6b6b6b]">
 					Hire me or recommend me
-					<a
-						href="
-				https://wa.me/message/UHRWC3UBMMB2E1"
-					>
-						<FaWhatsappSquare size={40} className="bg-[#004300]" />
-					</a>
+				<a href="
+					<link rel="stylesheet" href="" /></p>"></a>
 				</p>
 			</div>
 
