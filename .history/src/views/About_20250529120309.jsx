@@ -49,7 +49,7 @@ export default function About() {
 							My journey began at AltSchool Africa, where I immersed myself in
 							the world of web development. Interestingly, my passion for
 							building visually pleasing and user-friendly web applications was
-							ignited. Since then i have developed a strong interest in responsive design,
+							ignitedhave developed a strong interest in responsive design,
 							accessibility, and creating refined web applications.
 						</p>
 						<p className="font-thin text-[#EAE4D5] leading-[2.5rem] px-[1rem] mb-[2rem]">

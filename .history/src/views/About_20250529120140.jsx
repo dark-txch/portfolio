@@ -41,15 +41,15 @@ export default function About() {
 							Hello, I'm Ebenezer Tiewei &#x1F44B;
 						</h1>
 						<p className="font-thin text-[#EAE4D5] leading-[2.5rem] px-[1rem] mb-[2rem]">
-							I made a decision to transition from a gym instructor and personal
-							trainer to a software developer on May 17 2024 and it as been one
-							of the best decisions i have made.
+							I made a decision to transition from a gym instructor and
+							personal trainer to a software developer on May 17 2024
+							and it as been one of the best decisions i have made.
 						</p>
 						<p className="font-thin text-[#EAE4D5] leading-[2.5rem] px-[1rem] mb-[2rem]">
 							My journey began at AltSchool Africa, where I immersed myself in
 							the world of web development. Interestingly, my passion for
-							building visually pleasing and user-friendly web applications was
-							ignited. Since then i have developed a strong interest in responsive design,
+							building visually pleasing and user-friendly web applications. I
+							have developed a strong interest in responsive design,
 							accessibility, and creating refined web applications.
 						</p>
 						<p className="font-thin text-[#EAE4D5] leading-[2.5rem] px-[1rem] mb-[2rem]">
