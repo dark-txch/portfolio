@@ -37,7 +37,7 @@ const ProjectStand = ({ title, images, summary, tools, view }) => {
 							/>
 						))}
 					</div>
-					<div className="w-full bg-[#1c1860] pb-[1.5rem] rounded-bl-[3rem] rounded-br-[3rem] text-cyan-500">
+					<div className="w-full bg-[#1c1860] pl-[3rem] pb-[1.5rem] rounded-bl-[3rem] rounded-br-[3rem] text-cyan-500">
 						<button
 							onClick={() => setIsOpen(!isOpen)}
 							className="uppercase flex gap-3 items-center text-cyan-300 text-[1rem] pl-[1rem] pt-[1rem]"

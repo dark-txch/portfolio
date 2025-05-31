@@ -25,7 +25,7 @@ const projects = [
 			{ src: iPhoneBizpadi, alt: "iPhone Bizpadi" },
 		],
 		summary:
-			"A simple and efficient bookkeeping app designed to help small business owners track their sales and profit effortlessly.",
+			"A book keeping app that ese small business owners track their sales and profit",
 		tools: ["Vite", "React", "CSS", "Git"],
 		view: "https://bizpadi.netlify.app/",
 	},
@@ -59,7 +59,7 @@ const projects = [
 
 export default function Projects() {
 	return (
-		<div className="w-screen h-auto px-[1rem] grid grid-cols-1 gap-[1rem] pt-[5rem] pb-[10rem] lg:px-[2rem] lg:grid-cols-2">
+		<div className="w-screen h-auto grid grid-cols-1 gap-[3rem] px-[1rem] pt-[5rem] pb-[10rem] lg:grid-cols-2">
 			{projects.map((project, idx) => (
 				<ProjectStand
 					key={idx}

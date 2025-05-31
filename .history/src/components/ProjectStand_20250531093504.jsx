@@ -1,5 +1,6 @@
 // components/ProjectCard.jsx
 import { useState } from "react";
+import { useEffect, useRef } from "react";
 import { FaHandPointRight, FaHandPointDown } from "react-icons/fa";
 import { GoDotFill } from "react-icons/go";
 import { motion, AnimatePresence } from "framer-motion";
@@ -8,6 +9,22 @@ import { useMediaQuery } from "../Reusable/MediaQueryHook";
 const ProjectStand = ({ title, images, summary, tools, view }) => {
 	const [isOpen, setIsOpen] = useState(false);
 	const isLarge = useMediaQuery(1024);
+	const containerRef = useRef(null);
+
+	useEffect(() => {
+		function handleClickOutside(event) {
+			if (
+				containerRef.current &&
+				!containerRef.current.contains(event.target)
+			) {
+				setIsOpen(false);
+			}
+		}
+		document.addEventListener("mousedown", handleClickOutside);
+		return () => {
+			document.removeEventListener("mousedown", handleClickOutside);
+		};
+	}, []);
 
 	return (
 		<AnimatePresence mode="wait">
@@ -37,7 +54,10 @@ const ProjectStand = ({ title, images, summary, tools, view }) => {
 							/>
 						))}
 					</div>
-					<div className="w-full bg-[#1c1860] pb-[1.5rem] rounded-bl-[3rem] rounded-br-[3rem] text-cyan-500">
+					<div
+						ref={containerRef}
+						className="w-full bg-[#1c1860] pl-[1rem] pb-[1.5rem] rounded-bl-[3rem] rounded-br-[3rem] text-cyan-500"
+					>
 						<button
 							onClick={() => setIsOpen(!isOpen)}
 							className="uppercase flex gap-3 items-center text-cyan-300 text-[1rem] pl-[1rem] pt-[1rem]"

@@ -59,7 +59,7 @@ const projects = [
 
 export default function Projects() {
 	return (
-		<div className="w-screen h-auto px-[1rem] grid grid-cols-1 gap-[1rem] pt-[5rem] pb-[10rem] lg:px-[2rem] lg:grid-cols-2">
+		<div className="w-screen h-auto px-[2rem] grid grid-cols-1 gap-[3rem] px-[1rem] pt-[5rem] pb-[10rem] lg:px-[2rem] lg:grid-cols-2">
 			{projects.map((project, idx) => (
 				<ProjectStand
 					key={idx}

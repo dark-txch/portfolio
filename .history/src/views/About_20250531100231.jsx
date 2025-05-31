@@ -35,9 +35,9 @@ export default function About() {
 				transition={{ duration: 0.8 }}
 				className="w-screen h-auto bg-[#09063a] text-[1.4rem] lg:text-[1.6rem] lg:px-[2rem]"
 			>
-				<div className="flex flex-col justify-center px-[1rem] lg:flex-row lg:gap-[1rem]">
+				<div className="flex flex-col justify-center px-[1rem] lg:flex-row">
 					<div className="lg:w-full order-1">
-						<h1 className="font-unna font-bold text-cyan-400 leading-[3rem] mt-[5rem] text-[2.5rem] mb-[1.5rem] lg:text-[3rem]">
+						<h1 className="font-unna font-bold text-cyan-400 px-[1rem] leading-[3rem] mt-[5rem] text-[2.5rem] mb-[1.5rem] lg:text-[3rem]">
 							Hello, I'm Ebenezer Tiewei &#x1F44B;
 						</h1>
 						<p className="font-thin text-cyan-500 leading-[2.5rem] mb-[2rem]">
@@ -69,7 +69,7 @@ export default function About() {
 							experienced professionals.
 						</p>
 					</div>
-					<div className="lg:w-[40rem] lg:h-[40rem] mt-[5rem] lg:mt-0 lg:pt-[10rem] lg:order-2 md:flex md:justify-center ">
+					<div className="lg:w-[40rem] lg:h-[40rem] mt-[5rem] lg:px[1rem] lg:mt-0 lg:pt-[5rem] lg:order-2 md:flex md:justify-center ">
 						<img
 							src={EbenezerPortfolioOptimized}
 							loading="lazy"

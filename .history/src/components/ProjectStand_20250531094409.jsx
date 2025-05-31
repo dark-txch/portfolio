@@ -26,7 +26,7 @@ const ProjectStand = ({ title, images, summary, tools, view }) => {
 				}}
 				transition={{ duration: 0.8 }}
 			>
-				<div className="bg-[#1c1860] w-full flex flex-col items-center border-[0.2rem] border-[#FFF085] rounded-[3rem]">
+				<div className="bg-[#1c1860] px w-full flex flex-col items-center border-[0.2rem] border-[#FFF085] rounded-[3rem]">
 					<div className="bg-[#FCB454] w-full h-[8rem] flex justify-between p-[1rem] rounded-tl-[3rem] rounded-tr-[3rem] md:h-[15rem] lg:p-[1.5rem] lg:h-[14.5rem]">
 						{images.map((img, idx) => (
 							<img
@@ -37,7 +37,7 @@ const ProjectStand = ({ title, images, summary, tools, view }) => {
 							/>
 						))}
 					</div>
-					<div className="w-full bg-[#1c1860] pb-[1.5rem] rounded-bl-[3rem] rounded-br-[3rem] text-cyan-500">
+					<div className="w-full bg-[#1c1860] pl-[1rem] pb-[1.5rem] rounded-bl-[3rem] rounded-br-[3rem] text-cyan-500">
 						<button
 							onClick={() => setIsOpen(!isOpen)}
 							className="uppercase flex gap-3 items-center text-cyan-300 text-[1rem] pl-[1rem] pt-[1rem]"

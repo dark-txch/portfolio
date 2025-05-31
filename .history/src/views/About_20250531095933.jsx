@@ -35,17 +35,17 @@ export default function About() {
 				transition={{ duration: 0.8 }}
 				className="w-screen h-auto bg-[#09063a] text-[1.4rem] lg:text-[1.6rem] lg:px-[2rem]"
 			>
-				<div className="flex flex-col justify-center px-[1rem] lg:flex-row lg:gap-[1rem]">
+				<div className="flex flex-col justify-center lg:flex-row">
 					<div className="lg:w-full order-1">
-						<h1 className="font-unna font-bold text-cyan-400 leading-[3rem] mt-[5rem] text-[2.5rem] mb-[1.5rem] lg:text-[3rem]">
+						<h1 className="font-unna font-bold text-cyan-400 px-[1rem] leading-[3rem] mt-[5rem] text-[2.5rem] mb-[1.5rem] lg:text-[3rem]">
 							Hello, I'm Ebenezer Tiewei &#x1F44B;
 						</h1>
-						<p className="font-thin text-cyan-500 leading-[2.5rem] mb-[2rem]">
+						<p className="font-thin text-cyan-500 leading-[2.5rem] px-[1rem] mb-[2rem]">
 							I made a decision to transition from a gym instructor and personal
 							trainer to a software developer on May 17 2024 and it as been one
 							of the best decisions i have made.
 						</p>
-						<p className="font-thin text-cyan-500 leading-[2.5rem] mb-[2rem]">
+						<p className="font-thin text-cyan-500 leading-[2.5rem] px-[1rem] mb-[2rem]">
 							My journey began at AltSchool Africa, where I immersed myself in
 							the world of web development. Interestingly, my passion for
 							building visually pleasing and user-friendly web applications was
@@ -53,23 +53,23 @@ export default function About() {
 							responsive design, accessibility, and creating refined web
 							applications.
 						</p>
-						<p className="font-thin text-cyan-500 leading-[2.5rem] mb-[2rem]">
+						<p className="font-thin text-cyan-500 leading-[2.5rem] px-[1rem] mb-[2rem]">
 							I am also developing a deeper understanding of the principles of
 							software development in order to become a proficient software
 							engineer.
 						</p>
-						<p className="font-thin text-cyan-500 leading-[2.5rem] mb-[2rem]">
+						<p className="font-thin text-cyan-500 leading-[2.5rem] px-[1rem] mb-[2rem]">
 							I am therefore currently seeking opportunities to work on exciting
 							projects and collaborate with talented individuals in the tech
 							industry.
 						</p>
-						<p className="font-thin text-cyan-500 leading-[2.5rem] mb-[2rem]">
+						<p className="font-thin text-cyan-500 leading-[2.5rem] px-[1rem] mb-[2rem]">
 							My interest lies in roles that allow me to contribute to the
 							development of innovative web applications and to learn from
 							experienced professionals.
 						</p>
 					</div>
-					<div className="lg:w-[40rem] lg:h-[40rem] mt-[5rem] lg:mt-0 lg:pt-[10rem] lg:order-2 md:flex md:justify-center ">
+					<div className="lg:w-[40rem] lg:h-[40rem] mt-[5rem] px-[1rem] lg:mt-0 lg:pt-[5rem] lg:order-2 md:flex md:justify-center ">
 						<img
 							src={EbenezerPortfolioOptimized}
 							loading="lazy"
@@ -78,7 +78,7 @@ export default function About() {
 						/>
 					</div>
 				</div>
-				<div className="text-[#EAE4D5] mt-10 px-[1rem]">
+				<div className="text-[#EAE4D5] mt-10">
 					<button
 						onClick={() => setShowSkills(!showSkills)}
 						className="uppercase flex gap-3 items-center text-cyan-200 text-[1rem]"

@@ -16,7 +16,7 @@ const Nav = ({ onHeroLinkClick }) => {
 
 	return (
 		<header>
-			<nav className="relative text-[1rem] w-screen shadow h-[6rem] flex justify-between items-center px-[1rem] uppercase lg:flex lg:items-center lg:justify-between lg:px-[2rem]">
+			<nav className="relative text-[1rem] w-screen shadow h-[6rem] flex justify-between items-center px-[2rem] uppercase lg:flex lg:items-center lg:justify-between lg:px-[3rem]">
 				{/* Name links back to hero page */}
 				<ul>
 					<li className="text-cyan-500 hover:text-cyan-400 hover:font-bold duration-500">
