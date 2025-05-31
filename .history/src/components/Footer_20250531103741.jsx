@@ -60,7 +60,10 @@ const Footer = () => {
 						</li>
 					</ul>
 				</nav>
-				<div>&copy; {date}. designed &amp; built by Ebenezer Tiewei</div>
+				<div>
+					All Rights Reserved, {date}.  designed &amp; built by Ebenezer
+					Tiewei
+				</div>
 			</div>
 		</footer>
 	);

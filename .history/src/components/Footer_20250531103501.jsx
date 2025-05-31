@@ -3,7 +3,7 @@ import { FaLinkedin, FaGithub, FaWhatsappSquare } from "react-icons/fa";
 
 const Footer = () => {
 	let date = new Date().getFullYear();
-
+	
 	return (
 		<footer className="w-screen bg-[#1c1860] text-cyan-200 py-[3rem] px-[1rem] flex flex-col lg:px-[2rem]">
 			<div className="flex flex-col items-end">
@@ -60,7 +60,7 @@ const Footer = () => {
 						</li>
 					</ul>
 				</nav>
-				<div>&copy; {date}. designed &amp; built by Ebenezer Tiewei</div>
+				<div>&copy; designed &amp; built by Ebenezer Tiewei</div>
 			</div>
 		</footer>
 	);
