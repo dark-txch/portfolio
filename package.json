@@ -11,6 +11,7 @@
 		"build-css": "npx tailwindcss -i ./src/index.css -o ./public/styles.css --minify"
 	},
 	"dependencies": {
+		"cors": "^2.8.5",
 		"framer-motion": "^12.12.1",
 		"react": "^19.1.0",
 		"react-dom": "^19.1.0",
