@@ -69,7 +69,7 @@ export default function About() {
 							experienced professionals.
 						</p>
 					</div>
-					<div className="lg:w-[40rem] lg:h-[40rem] mt-[5rem] lg:mt-[10rem] lg:order-2 md:flex md:justify-center ">
+					<div className="lg:w-[40rem] lg:h-[40rem] mt-[5rem] lg:mt- lg:order-2 md:flex md:justify-center ">
 						<img
 							src={EbenezerPortfolioOptimized}
 							loading="lazy"
