@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		outline: none;
+	}
+}
+
+@layer utilities {
+	.translate-y-full {
+		transform: translateY(100vh);
+	}
+}
+
+body {
+	@apply font-sans;
+	/* background-color: #09063a; */
+	background-color: #09a;
+	/* background-color: #00CAFF; */
+}
+
+/* For autofill styling */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+	background-color: white !important;
+	-webkit-box-shadow: 0 0 0px 1000px #1c1860 inset !important;
+	-webkit-text-fill-color: #eae4d5 !important;
+	transition: background-color 9999s ease-in-out 0s;
+}
