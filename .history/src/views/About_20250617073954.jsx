@@ -108,7 +108,7 @@ export default function About() {
 					</div>
 					<div className="mt-[5rem] lg:w-[40rem] lg:h-[40rem] lg:mt-[9rem] lg:order-2 md:flex md:justify-center ">
 						<img
-							src={King}
+							src={EbenezerPortfolioOptimized}
 							loading="lazy"
 							alt="Ebenezer seated at his work desk in a modern office"
 							className="rounded-[2rem] w-full h-full object-cover border-[2px] border-[#09063a]"
