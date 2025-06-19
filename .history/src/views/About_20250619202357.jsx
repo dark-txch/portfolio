@@ -11,7 +11,7 @@ export default function About() {
 	const [showSkills, setShowSkills] = useState(false);
 	const skillCategories = [
 		{ title: "Languages", skills: ["HTML", "CSS", "JAVASCRIPT"] },
-		{ title: "Libraries", skills: ["REACT", "VUE", "ANGULAR"] },
+		{ title: "Libraries", skills: ["REACT"] },
 		{ title: "Frameworks", skills: ["TAILWINDCSS"] },
 		{ title: "Tools", skills: ["GIT", "VSCODE", "FIGMA"] },
 	];
@@ -161,7 +161,8 @@ export default function About() {
 				</div>
 				<div className=" w-full flex justify-center py-[5rem]">
 					<a
-						href="https://docs.google.com/document/d/1Yy5hnoUfNJudXfDZjr4CW6ugIVcJaxIYl-nhSmbubBM/view"
+						href="https://docs.google.com/document/d/1IrEwV7yAk8BnJbFFMpIwr2gZ8mIreHamtIgr1XtB6P0/view"
+						href="https://docs.google.com/document/d/1Yy5hnoUfNJudXfDZjr4CW6ugIVcJaxIYl-nhSmbubBM/edit?usp=sharing"
 						target="_blank"
 						rel="noopener noreferrer"
 						aria-label="Download resume"

@@ -11,7 +11,7 @@ export default function About() {
 	const [showSkills, setShowSkills] = useState(false);
 	const skillCategories = [
 		{ title: "Languages", skills: ["HTML", "CSS", "JAVASCRIPT"] },
-		{ title: "Libraries", skills: ["REACT", "VUE", "ANGULAR"] },
+		{ title: "Libraries", skills: ["REACT, "] },
 		{ title: "Frameworks", skills: ["TAILWINDCSS"] },
 		{ title: "Tools", skills: ["GIT", "VSCODE", "FIGMA"] },
 	];

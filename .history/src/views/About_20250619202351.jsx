@@ -11,7 +11,7 @@ export default function About() {
 	const [showSkills, setShowSkills] = useState(false);
 	const skillCategories = [
 		{ title: "Languages", skills: ["HTML", "CSS", "JAVASCRIPT"] },
-		{ title: "Libraries", skills: ["REACT", "VUE", "ANGULAR"] },
+		{ title: "Libraries", skills: ["REACT"] },
 		{ title: "Frameworks", skills: ["TAILWINDCSS"] },
 		{ title: "Tools", skills: ["GIT", "VSCODE", "FIGMA"] },
 	];
@@ -103,9 +103,7 @@ export default function About() {
 							I'm actively available and seeking opportunities to work on
 							exciting projects and collaborate with talented individuals in the
 							tech industry,{" "}
-							<span className="font-unna font-bold">
-								taking a step at a time.
-							</span>
+							<span className="font-unna font-bold">taking a step at a time.</span>
 						</p>
 					</div>
 					<div className="mt-[5rem] lg:w-[40rem] lg:h-[40rem] lg:mt-[9rem] lg:order-2 md:flex md:justify-center ">
@@ -161,7 +159,8 @@ export default function About() {
 				</div>
 				<div className=" w-full flex justify-center py-[5rem]">
 					<a
-						href="https://docs.google.com/document/d/1Yy5hnoUfNJudXfDZjr4CW6ugIVcJaxIYl-nhSmbubBM/view"
+						href="https://docs.google.com/document/d/1IrEwV7yAk8BnJbFFMpIwr2gZ8mIreHamtIgr1XtB6P0/view"
+						href="https://docs.google.com/document/d/1IrEwV7yAk8BnJbFFMpIwr2gZ8mIreHamtIgr1XtB6P0/view"
 						target="_blank"
 						rel="noopener noreferrer"
 						aria-label="Download resume"
