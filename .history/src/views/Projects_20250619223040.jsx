@@ -26,8 +26,8 @@ const projects = [
 		],
 		summary:
 			"This project is bookkeeping web-application designed to help small business owners track their sales and profit effortlessly.",
-		keyAccomplishment:
-			"The team and i was able to complete the project and meet deadline constraints..",
+		Key Accomplisement:
+			"This project is bookkeeping web-application designed to help small business owners track their sales and profit effortlessly.",
 		tools: ["Vite", "React", "CSS", "Git"],
 		view: "https://bizpadi.netlify.app/",
 	},
@@ -41,8 +41,6 @@ const projects = [
 		],
 		summary:
 			"An emergency response app that sends out an emergency alert to your love ones and the right authorities, when you feel unsafe.",
-		keyAccomplishment:
-			"The team and i was able to complete the project and meet deadline constraints..",
 		tools: ["Vite", "React", "CSS", "Git"],
 		view: "https://resq-co.netlify.app/",
 	},
@@ -70,7 +68,6 @@ export default function Projects() {
 					title={project.title}
 					images={project.images}
 					summary={project.summary}
-					keyAccomplishment={project.keyAccomplishment}
 					tools={project.tools}
 					view={project.view}
 				/>

@@ -5,14 +5,7 @@ import { GoDotFill } from "react-icons/go";
 import { motion, AnimatePresence } from "framer-motion";
 import { useMediaQuery } from "../Reusable/MediaQueryHook";
 
-const ProjectStand = ({
-	title,
-	images,
-	summary,
-	keyAccomplishment,
-	tools,
-	view,
-}) => {
+const ProjectStand = ({ title, images, summary, tools, view }) => {
 	const [isOpen, setIsOpen] = useState(false);
 	const isLarge = useMediaQuery(1024);
 
@@ -72,17 +65,17 @@ const ProjectStand = ({
 											{summary}
 										</p>
 										<h4 className="text-[1.2rem] font-bold font-unna mb-1 text-cyan-200">
-											Key Accompliement:
+											Key Accompli:
 										</h4>
-										<p className="text-[1.3rem] font-thin font-unna mb-3 text-cyan-400">
-											{keyAccomplishment}
-										</p>
 										<h4 className="text-[1.2rem] font-bold font-unna mb-1 text-cyan-200">
 											Tools:
 										</h4>
 										<ul className="flex flex-wrap gap-5 ">
 											{tools.map((tool) => (
-												<li key={tool} className="flex items-center gap-2">
+												<li
+													key={tool}
+													className="flex items-center gap-2"
+												>
 													<GoDotFill
 														className="text-cyan-200 mb-3 "
 														size={10}

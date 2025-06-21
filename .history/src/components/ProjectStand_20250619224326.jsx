@@ -5,14 +5,7 @@ import { GoDotFill } from "react-icons/go";
 import { motion, AnimatePresence } from "framer-motion";
 import { useMediaQuery } from "../Reusable/MediaQueryHook";
 
-const ProjectStand = ({
-	title,
-	images,
-	summary,
-	keyAccomplishment,
-	tools,
-	view,
-}) => {
+const ProjectStand = ({ title, images, summary, tools, view }) => {
 	const [isOpen, setIsOpen] = useState(false);
 	const isLarge = useMediaQuery(1024);
 

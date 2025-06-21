@@ -48,7 +48,7 @@ const Footer = () => {
 								</span>
 							</a>
 							<a
-								href="https://github.com/ebenezertiewei"
+								href=""
 								target="_blank"
 								rel="noopener noreferrer"
 								aria-label="GitHub"

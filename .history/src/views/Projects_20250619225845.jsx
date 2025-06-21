@@ -56,6 +56,8 @@ const projects = [
 		],
 		summary:
 			"My personal portfolio website showcasing my skills, projects and contact for collaboration.",
+		keyAccomplishment:
+			"The team and i was able to complete the project and meet deadline constraints..",
 		tools: ["Vite", "React", "Tailwind CSS", "Git"],
 		view: "https://ebenezertiewei.netlify.app/",
 	},
